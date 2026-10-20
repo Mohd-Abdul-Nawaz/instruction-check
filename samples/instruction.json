@@ -1,0 +1,13 @@
+{
+  "name": "support-reply",
+  "description": "Support replies must greet, answer, and sign off without placeholders.",
+  "rules": [
+    {"type": "min_words", "value": 20},
+    {"type": "max_words", "value": 200},
+    {"type": "must_include", "value": "refund"},
+    {"type": "must_not_include", "value": "as an AI"},
+    {"type": "format", "value": "email"},
+    {"type": "placeholder_free"},
+    {"type": "max_exclamations", "value": 1}
+  ]
+}
